@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grand Judge Panel</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg"></div>
+
+<div class="layout">
+
+  <div class="contestant-side">
+
+    <div class="round-badge">
+      R2 SWIMSUIT COMPETITION
+    </div>
+
+    <div class="contestant-card">
+
+      <img id="contestantImage"
+      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop"
+      />
+
+      <div class="contestant-info">
+        <h1 id="contestantName">Thailand</h1>
+        <p>Contestant #14</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="judge-panel">
+
+    <h1>Judge Scoring</h1>
+    <p class="sub">Enter score from 1 - 10</p>
+
+    <div class="score-display" id="scoreDisplay">
+      0
+    </div>
+
+    <div class="keypad">
+
+      <button class="key">1</button>
+      <button class="key">2</button>
+      <button class="key">3</button>
+
+      <button class="key">4</button>
+      <button class="key">5</button>
+      <button class="key">6</button>
+
+      <button class="key">7</button>
+      <button class="key">8</button>
+      <button class="key">9</button>
+
+      <button class="key">.</button>
+      <button class="key">0</button>
+      <button class="key">⌫</button>
+
+    </div>
+
+    <button class="submit-btn" id="submitBtn">
+      CONFIRM SCORE
+    </button>
+
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
